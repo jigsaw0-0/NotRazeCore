@@ -1,11 +1,7 @@
 import UIKit
 
 public class RazeCore {
-
-    
-    
-    
-    
+   
     /// Allows some cool stuff
     /// - Warning: Some crazy warning
     /// - Parameters:
@@ -34,6 +30,12 @@ public class RazeCore {
         }
             
         return UIColor.black
+    }
+    
+    /// Something something appropirate
+    static var secondaryRazeColor : UIColor {
+        
+        return colorFromHexString("FCFFFD")
     }
     
 }

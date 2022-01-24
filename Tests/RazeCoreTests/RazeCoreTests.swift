@@ -14,9 +14,22 @@
             
         }
         
+    
+        func testSecondaryColorsAreEqual() {
+            
+            let color = RazeCore.colorFromHexString("FCFFFD")
+            
+            
+            XCTAssertEqual(color, RazeCore.secondaryRazeColor)
+            
+        }
+        
+        
+        
         
         static var allTests = [
             ("testColorRedEqual", testColorRedEqual),
+            ("testSecondaryColorsAreEqual", testSecondaryColorsAreEqual)
         ]
         
         
