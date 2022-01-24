@@ -1,6 +1,6 @@
 import UIKit
 
-class RazeCore {
+public class RazeCore {
 
     
     
@@ -12,7 +12,7 @@ class RazeCore {
     ///   - hexString: some hexString
     ///   - alpha: some alpha value
     /// - Returns: awesome return
-    class func colorFromHexString(_ hexString : String, alpha : CGFloat = 1.0) -> UIColor {
+    public class func colorFromHexString(_ hexString : String, alpha : CGFloat = 1.0) -> UIColor {
         
         let r,g,b : CGFloat
         let offset = hexString.hasPrefix("#") ? 1 : 0
