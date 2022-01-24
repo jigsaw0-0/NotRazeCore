@@ -1,2 +1,3 @@
-# RazeCode
-A useful framework
+# RazeCore
+
+A description of this package.
